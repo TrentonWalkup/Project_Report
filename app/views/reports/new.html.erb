@@ -1,0 +1,14 @@
+<%= form_for @report do |form| %>
+ <%= form.label :sprint %>
+    <%= form.text_field :sprint%>
+
+    <%= form.label :passpercentage %>
+    <%= form.text_field :passpercentage %>
+
+    <%= form.label :team %>
+    <%= form.text_field :team%>
+
+    <%= form.submit("Submit") %>
+
+
+  <% end %>

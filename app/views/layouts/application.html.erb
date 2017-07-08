@@ -9,6 +9,14 @@
   </head>
 
   <body>
-    <%= yield %>
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
+
+<% if current_user %>
+  <h2>
+    <%= link_to "#{current_user.email} logout", destroy_user_session_path, method: :delete %>
+  </h2>
+<%end%>
+  <%= yield %>
   </body>
 </html>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  story: MyString
+  qapass: false
+  passpercentage: 1
+  team: MyString
+
+two:
+  story: MyString
+  qapass: false
+  passpercentage: 1
+  team: MyString
